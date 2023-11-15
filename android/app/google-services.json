@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "400838697473",
+    "project_id": "mobicheckbr",
+    "storage_bucket": "mobicheckbr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400838697473:android:1e7e1c655f9a559d949600",
+        "android_client_info": {
+          "package_name": "com.example.mobicheck"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgP0SlbyUSux6TZjHdnwMyJTQA6TEj37g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
