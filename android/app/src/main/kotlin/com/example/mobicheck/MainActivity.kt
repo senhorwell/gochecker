@@ -1,4 +1,4 @@
-package com.example.mobicheck
+package br.com.mobicheck
 
 import io.flutter.embedding.android.FlutterActivity
 

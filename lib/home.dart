@@ -15,8 +15,6 @@ class AddNote extends StatefulWidget {
 }
 
 class AddNoteState extends State<AddNote> {
-  var k;
-  var ref;
   List<dynamic> listValue = [];
   List<List<dynamic>> listList = [];
   final fb = FirebaseDatabase.instance;
@@ -33,6 +31,7 @@ class AddNoteState extends State<AddNote> {
   TextEditingController dateController = TextEditingController();
   DateTime? pickedDate;
   String shitCounter = "";
+
   IconData getIcon(type) {
     switch (type) {
       case 'leite':
@@ -48,8 +47,8 @@ class AddNoteState extends State<AddNote> {
   }
 
   openModal(type) {
-    k = getDateTimeId();
-    ref = fb.ref().child('${widget.title.toLowerCase()}/$k');
+    int k = getDateTimeId();
+    DatabaseReference ref = fb.ref().child('${widget.title.toLowerCase()}/$k');
     qtdController.text = type.toLowerCase() == "fralda" ? "Apenas xixi" : "";
     List<DropdownMenuItem<String>> cnhCategories = const [
       DropdownMenuItem(

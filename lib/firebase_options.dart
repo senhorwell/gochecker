@@ -52,24 +52,27 @@ class DefaultFirebaseOptions {
     messagingSenderId: '400838697473',
     projectId: 'mobicheckbr',
     authDomain: 'mobicheckbr.firebaseapp.com',
+    databaseURL: 'https://mobicheckbr-default-rtdb.firebaseio.com',
     storageBucket: 'mobicheckbr.appspot.com',
     measurementId: 'G-Y3HH72CBDK',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDgP0SlbyUSux6TZjHdnwMyJTQA6TEj37g',
-    appId: '1:400838697473:android:1e7e1c655f9a559d949600',
+    appId: '1:400838697473:android:9c32035185cd158e949600',
     messagingSenderId: '400838697473',
     projectId: 'mobicheckbr',
+    databaseURL: 'https://mobicheckbr-default-rtdb.firebaseio.com',
     storageBucket: 'mobicheckbr.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyA0a0thcmXwqLNVbgKaqC9tBPQClMG0uUY',
-    appId: '1:400838697473:ios:8a87d210f3dd7ebe949600',
+    appId: '1:400838697473:ios:af968ba138f653ee949600',
     messagingSenderId: '400838697473',
     projectId: 'mobicheckbr',
+    databaseURL: 'https://mobicheckbr-default-rtdb.firebaseio.com',
     storageBucket: 'mobicheckbr.appspot.com',
-    iosBundleId: 'com.example.mobicheck',
+    iosBundleId: 'br.com.mobicheck',
   );
 }
