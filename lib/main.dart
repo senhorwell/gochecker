@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Go Checker',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -60,10 +60,8 @@ class _MyHomePageState extends State<MyHomePage> {
     return await todos.once().then((snapshot) {
       Map<dynamic, dynamic> values =
           snapshot.snapshot.value as Map<dynamic, dynamic>;
-      values.forEach((key, comodos) {
-        setState(() {
-          teste = comodos.toString();
-        });
+      setState(() {
+        teste = values.toString();
       });
     });
 
