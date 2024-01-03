@@ -1,22 +1,22 @@
 {
   "project_info": {
-    "project_number": "400838697473",
-    "firebase_url": "https://mobicheckbr-default-rtdb.firebaseio.com",
-    "project_id": "mobicheckbr",
-    "storage_bucket": "mobicheckbr.appspot.com"
+    "project_number": "572913481064",
+    "firebase_url": "https://gocheckerbr-default-rtdb.firebaseio.com",
+    "project_id": "gocheckerbr",
+    "storage_bucket": "gocheckerbr.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:400838697473:android:9c32035185cd158e949600",
+        "mobilesdk_app_id": "1:572913481064:android:15082671e2eac3915312dd",
         "android_client_info": {
-          "package_name": "br.com.mobicheck"
+          "package_name": "br.com.gochecker"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDgP0SlbyUSux6TZjHdnwMyJTQA6TEj37g"
+          "current_key": "AIzaSyAxjHFvNnGc2dEDcg1wvHyYezTcmI2Nin4"
         }
       ],
       "services": {
@@ -27,15 +27,15 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:400838697473:android:1e7e1c655f9a559d949600",
+        "mobilesdk_app_id": "1:572913481064:android:82900694f624f76d5312dd",
         "android_client_info": {
-          "package_name": "com.example.mobicheck"
+          "package_name": "com.example.gochecker"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDgP0SlbyUSux6TZjHdnwMyJTQA6TEj37g"
+          "current_key": "AIzaSyAxjHFvNnGc2dEDcg1wvHyYezTcmI2Nin4"
         }
       ],
       "services": {

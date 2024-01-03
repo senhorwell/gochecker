@@ -47,32 +47,32 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCe0cOYc90a8i9_iRBYPUVmmLj_B_PKY6Y',
-    appId: '1:400838697473:web:2c0f78d5ee347a55949600',
-    messagingSenderId: '400838697473',
-    projectId: 'mobicheckbr',
-    authDomain: 'mobicheckbr.firebaseapp.com',
-    databaseURL: 'https://mobicheckbr-default-rtdb.firebaseio.com',
-    storageBucket: 'mobicheckbr.appspot.com',
-    measurementId: 'G-Y3HH72CBDK',
+    apiKey: 'AIzaSyCGS3dbZDMmHwCprI4o9zxqNcQiW5Oiq9A',
+    appId: '1:572913481064:web:7aced0363d44895c5312dd',
+    messagingSenderId: '572913481064',
+    projectId: 'gocheckerbr',
+    authDomain: 'gocheckerbr.firebaseapp.com',
+    databaseURL: 'https://gocheckerbr-default-rtdb.firebaseio.com',
+    storageBucket: 'gocheckerbr.appspot.com',
+    measurementId: 'G-M7N5XMWKRL',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDgP0SlbyUSux6TZjHdnwMyJTQA6TEj37g',
-    appId: '1:400838697473:android:9c32035185cd158e949600',
-    messagingSenderId: '400838697473',
-    projectId: 'mobicheckbr',
-    databaseURL: 'https://mobicheckbr-default-rtdb.firebaseio.com',
-    storageBucket: 'mobicheckbr.appspot.com',
+    apiKey: 'AIzaSyAxjHFvNnGc2dEDcg1wvHyYezTcmI2Nin4',
+    appId: '1:572913481064:android:82900694f624f76d5312dd',
+    messagingSenderId: '572913481064',
+    projectId: 'gocheckerbr',
+    databaseURL: 'https://gocheckerbr-default-rtdb.firebaseio.com',
+    storageBucket: 'gocheckerbr.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA0a0thcmXwqLNVbgKaqC9tBPQClMG0uUY',
-    appId: '1:400838697473:ios:af968ba138f653ee949600',
-    messagingSenderId: '400838697473',
-    projectId: 'mobicheckbr',
-    databaseURL: 'https://mobicheckbr-default-rtdb.firebaseio.com',
-    storageBucket: 'mobicheckbr.appspot.com',
-    iosBundleId: 'br.com.mobicheck',
+    apiKey: 'AIzaSyCl6MOXfyUopBIlKWe04WiIMgpWH93s-OI',
+    appId: '1:572913481064:ios:6256ba46f6228cc35312dd',
+    messagingSenderId: '572913481064',
+    projectId: 'gocheckerbr',
+    databaseURL: 'https://gocheckerbr-default-rtdb.firebaseio.com',
+    storageBucket: 'gocheckerbr.appspot.com',
+    iosBundleId: 'com.example.gochecker',
   );
 }
