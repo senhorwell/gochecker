@@ -15,8 +15,7 @@ ThemeData getDarkTheme(BuildContext context) {
     textTheme: Theme.of(context)
         .textTheme
         .apply(
-          bodyColor: AppColors.darkTextColor,
-          displayColor: AppColors.darkTextColor,
+          bodyColor: Colors.white,
         )
         .copyWith(
           titleSmall: const TextStyle(
@@ -91,12 +90,9 @@ ThemeData getDarkTheme(BuildContext context) {
       foregroundColor: AppColors.darkIconColor,
     ),
     appBarTheme: const AppBarTheme(
-        titleTextStyle: TextStyle(
-            fontWeight: FontWeight.w500,
-            fontSize: 20.0),
-        toolbarTextStyle: TextStyle(
-            fontWeight: FontWeight.w500,
-            fontSize: 20.0),
+        titleTextStyle: TextStyle(fontWeight: FontWeight.w500, fontSize: 20.0),
+        toolbarTextStyle:
+            TextStyle(fontWeight: FontWeight.w500, fontSize: 20.0),
         backgroundColor: Color(0xFF101010),
         iconTheme: IconThemeData(
           color: Colors.white,
@@ -210,12 +206,9 @@ ThemeData getLightTheme(BuildContext context) {
       foregroundColor: AppColors.lightIconColor,
     ),
     appBarTheme: const AppBarTheme(
-        titleTextStyle: TextStyle(
-            fontWeight: FontWeight.w500,
-            fontSize: 20.0),
-        toolbarTextStyle: TextStyle(
-            fontWeight: FontWeight.w500,
-            fontSize: 20.0),
+        titleTextStyle: TextStyle(fontWeight: FontWeight.w500, fontSize: 20.0),
+        toolbarTextStyle:
+            TextStyle(fontWeight: FontWeight.w500, fontSize: 20.0),
         backgroundColor: AppColors.primary,
         iconTheme: IconThemeData(
           color: Colors.white,

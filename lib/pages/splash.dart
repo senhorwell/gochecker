@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:gochecker/models/user.dart';
+import 'package:gochecker/pages/home.dart';
 import 'package:gochecker/pages/login.dart';
 import 'package:gochecker/theme/app_images.dart';
 
@@ -8,11 +10,10 @@ class Splash extends StatefulWidget {
   final int fadeSeconds;
 
   const Splash(
-      {Key? key,
+      {super.key,
       this.splashImageTag = "splashImageTag",
       this.splashImageProportion = 0.8,
-      this.fadeSeconds = 3})
-      : super(key: key);
+      this.fadeSeconds = 3});
 
   @override
   State<Splash> createState() => _SplashState();
@@ -21,6 +22,7 @@ class Splash extends StatefulWidget {
 class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
   late Animation<double> fadeInFadeOut;
   late AnimationController animation;
+  late bool logged = true;
 
   @override
   void initState() {
@@ -29,6 +31,18 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
     fadeInFadeOut = Tween<double>(begin: 0.0, end: 1.0).animate(animation);
     animation.forward();
 
+    if (logged == true) {
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(
+            builder: (_) => HomePage(
+                  user: User(
+                    name: 'name',
+                    email: 'email',
+                  ),
+                )),
+      );
+      return;
+    }
     Future.delayed(Duration(seconds: widget.fadeSeconds + 1), () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(builder: (_) => const LoginPage()),
