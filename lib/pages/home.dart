@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
                 onTap: () {
                   Navigator.pushNamed(context, '/myAccount');
                 },
-                child: CircleAvatar(
+                child: const CircleAvatar(
                   backgroundColor: Colors.grey,
                   child: Icon(
                     Icons.person,
@@ -82,12 +82,12 @@ class _HomePageState extends State<HomePage> {
                     onPressed: () {
                       // Implemente a ação do ícone de olho aqui
                     },
-                    icon: Icon(
+                    icon: const Icon(
                       Icons.remove_red_eye,
                       color: Colors.white,
                     ),
                   ),
-                  Padding(
+                  const Padding(
                     padding: EdgeInsets.only(right: 30),
                     child: Text(
                       'R\$ 100,00',
@@ -125,9 +125,7 @@ class _HomePageState extends State<HomePage> {
                           itemCount: icons.length,
                           itemBuilder: (BuildContext context, int index) {
                             return GestureDetector(
-                              onTap: () {
-                                print('Clicou no ícone ${index + 1}');
-                              },
+                              onTap: () {},
                               child: Container(
                                 margin: const EdgeInsets.all(10),
                                 width: 60,
@@ -168,8 +166,8 @@ class _HomePageState extends State<HomePage> {
           onPressed: () {
             Navigator.pushNamed(context, '/criarCasa');
           },
-          shape: CircleBorder(),
-          child: Icon(Icons.add, color: Colors.white),
+          shape: const CircleBorder(),
+          child: const Icon(Icons.add, color: Colors.white),
         ));
   }
 }
